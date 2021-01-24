@@ -1,0 +1,237 @@
+body {
+  background: #FFD90F;
+}
+.simpsonlogo {
+  position: absolute;
+  width: 782px;
+  height: 589px;
+  left: 599px;
+  top: -123px;
+
+  background: url(The simpson logo.png);
+}
+.title {
+  position: absolute;
+  width: 600px;
+  height: 216px;
+  left: 41px;
+  top: 24px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 74px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.cloud {
+  position: absolute;
+  width: 1920px;
+  height: 849px;
+  left: -263px;
+  top: -123px;
+
+  background: url(1d041ba62f033f51fdc3bcd27c183e2e.png);
+}
+.simpsonfam {
+  position: absolute;
+  width: 920px;
+  height: 908px;
+  left: 555px;
+  top: 222px;
+
+  background: url(56de7aeab2911cbac06de30b4ac040c9.png);
+}
+.marge {
+  position: absolute;
+  width: 142px;
+  height: 58px;
+  left: 346px;
+  top: 310px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #000000;
+}
+.margecloud {
+  position: absolute;
+  width: 275px;
+  height: 195px;
+  left: 280px;
+  top: 271px;
+
+  background: url(cloud-md.png);
+}
+.bartcloud {
+  position: absolute;
+  width: 275px;
+  height: 195px;
+  left: 24px;
+  top: 579px;
+
+  background: url(cloud-md.png);
+}
+.bart {
+  position: absolute;
+  width: 130px;
+  height: 58px;
+  left: 98px;
+  top: 618px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #000000;
+}
+.homercloud {
+  position: absolute;
+  width: 271px;
+  height: 195px;
+  left: 28px;
+  top: 369px;
+
+  background: url(cloud-md.png);
+}
+.homer {
+  position: absolute;
+  width: 160px;
+  height: 44px;
+  left: 83px;
+  top: 407px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #000000;
+}
+.lisa {
+  position: absolute;
+  width: 130px;
+  height: 66px;
+  left: 352px;
+  top: 498px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #000000;
+}
+.lisacloud {
+  position: absolute;
+  width: 279px;
+  height: 195px;
+  left: 274px;
+  top: 466px;
+
+  background: url(cloud-md.png);
+}
+.nedcloud {
+  position: absolute;
+  width: 271px;
+  height: 195px;
+  left: 282px;
+  top: 676px;
+
+  background: url(cloud-md.png);
+}
+.ned {
+  position: absolute;
+  width: 146px;
+  height: 71px;
+  left: 348px;
+  top: 714px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #000000;
+}
+.milhouse {
+  position: absolute;
+  width: 184px;
+  height: 73px;
+  left: 74px;
+  top: 811px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #000000;
+}
+.milhousecloud {
+  position: absolute;
+  width: 278px;
+  height: 194px;
+  left: 24px;
+  top: 774px;
+
+  background: url(cloud-md.png);
+}
+.burnscloud {
+  position: absolute;
+  width: 275px;
+  height: 195px;
+  left: 280px;
+  top: 858px;
+
+  background: url(cloud-md.png);
+}
+.burns {
+  position: absolute;
+  width: 182px;
+  height: 59px;
+  left: 326px;
+  top: 915px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #000000;
+}
+.home {
+  position: absolute;
+  width: 350px;
+  height: 59px;
+  left: 1110px;
+  top: 24px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #000000;
+}

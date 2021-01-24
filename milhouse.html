@@ -1,0 +1,85 @@
+<html>
+<head>
+  <title>Trivia</title>
+<link href="trivia.css" type="text/css" rel="stylesheet">
+<style type="text/css">
+        body {
+            background:#E3E1DC;
+            font-size:16px;
+            font-family:Helvetica, Arial;
+            line-height:1.2em;
+            color:#222222;
+        }
+</style>
+<script type="text/javascript">
+var n;
+function changeColor()
+{
+n=setInterval(flashText,1000);
+}
+function flashText(n)
+{
+var elem=document.getElementById("para1");
+elem.style.color=elem.style.color=="yellow"?"blue":"yellow";
+}
+var tot=0,i=0,per=0;
+function total()
+{
+if(document.getElementById("a1").checked)
+{tot=tot+1;}
+if(document.getElementById("a2").checked)
+{tot=tot+1;}
+if(document.getElementById("a3").checked)
+{tot=tot+1;}
+if(document.getElementById("a4").checked)
+{tot=tot+1;}
+if(document.getElementById("a5").checked)
+{tot=tot+1;}
+per=tot/5*100;
+document.getElementById("total").value=per;
+}
+function result_popup()
+{
+var w = window.open('', '', 'width=900,height=500,resizeable,scrollbars');
+w.document.write("<b>You are ",document.getElementById('total').value,"% Milhouse<b/>");
+w.document.close();
+}
+</script>
+</head>
+<body   onload="changeColor();">
+<div id="para1">
+<h2 align="center"><u>Milhouse Trivia</u></h1>
+</div>
+1. Milhouse is a descent of?<br>
+(a)<input type="radio" name="q1" id=a1>All of the below<br>
+(b)<input type="radio" name="q1">Danish<br>
+(c)<input type="radio" name="q1"> Dutch<br>
+(d)<input type="radio" name="q1"> Italian<br>
+<br>
+2.  Bart used his glasses as makeshift binoculars to spy on?<br>
+(a)<input type="radio" name="q2">Homes<br>
+(b)<input type="radio" name="q2"> Mr Burns<br>
+(c)<input type="radio" name="q2" id=a2>Lisa<br>
+(d)<input type="radio" name="q2">Bart<br>
+<br>
+3. Milhouse's female counselor's name is?<br>
+(a)<input type="radio" name="q3">  Dr. Alice<br>
+(b)<input type="radio" name="q3" id=a3> Dr. Waxler<br>
+(c)<input type="radio" name="q3"> Dr. Amber<br>
+(d)<input type="radio" name="q3"> Dr. Ashly<br>
+<br>
+4. What is Milhouse's middle name?<br>
+(a)<input type="radio" name="q4">Giovanni<br>
+(b)<input type="radio" name="q4">James<br>
+(c)<input type="radio" name="q4">Albert<br>
+(d)<input type="radio" name="q4" id=a4>Mussolini<br>
+<br>
+5. In the episode "Lisa's Rival", Bart managed to get Milhouse onto?<br>
+(a)<input type="radio" name="q5">RAW's America's Most Wanted list<br>
+(b)<input type="radio" name="q5"> CBI's America's Most Wanted list<br>
+(c)<input type="radio" name="q5" id=a5>FBI's America's Most Wanted list<br>
+(d)<input type="radio" name="q5">NSA's America's Most Wanted list<br>
+<br>
+<input type="submit" onclick="total(),result_popup()", id="total", value="Show Result"><br><br>
+</body>
+</html>

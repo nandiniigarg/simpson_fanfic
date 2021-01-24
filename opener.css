@@ -1,0 +1,80 @@
+.head {
+  position: absolute;
+  width: 1540px;
+  height: 199px;
+  left: -50px;
+  top: 71px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 170px;
+  line-height: 196px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: rgba(255, 217, 15, 0.99);
+}
+.intro {
+  position: absolute;
+  width: 767px;
+  height: 51px;
+  left: 336px;
+  top: 300px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 74px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+}
+.names {
+  position: absolute;
+  width: 675px;
+  height: 230px;
+  left: 382px;
+  top: 400px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+}
+.link {
+  position: absolute;
+  width: 448px;
+  height: 43px;
+  left: 496px;
+  top: 684px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 58px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #E5E5E5;
+}
+img {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  left: -38px;
+  top: -7px;
+
+  background: url(cloudbg.png);
+}

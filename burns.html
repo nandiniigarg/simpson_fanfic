@@ -1,0 +1,85 @@
+<html>
+<head>
+  <title>Trivia</title>
+<link href="trivia.css" type="text/css" rel="stylesheet">
+<style type="text/css">
+        body {
+            background:#E3E1DC;
+            font-size:16px;
+            font-family:Helvetica, Arial;
+            line-height:1.2em;
+            color:#222222;
+        }
+</style>
+<script type="text/javascript">
+var n;
+function changeColor()
+{
+n=setInterval(flashText,1000);
+}
+function flashText(n)
+{
+var elem=document.getElementById("para1");
+elem.style.color=elem.style.color=="yellow"?"blue":"yellow";
+}
+var tot=0,i=0,per=0;
+function total()
+{
+if(document.getElementById("a1").checked)
+{tot=tot+1;}
+if(document.getElementById("a2").checked)
+{tot=tot+1;}
+if(document.getElementById("a3").checked)
+{tot=tot+1;}
+if(document.getElementById("a4").checked)
+{tot=tot+1;}
+if(document.getElementById("a5").checked)
+{tot=tot+1;}
+per=tot/5*100;
+document.getElementById("total").value=per;
+}
+function result_popup()
+{
+var w = window.open('', '', 'width=900,height=500,resizeable,scrollbars');
+w.document.write("<b>You are ",document.getElementById('total').value,"% Mr Bruns<b/>");
+w.document.close();
+}
+</script>
+</head>
+<body   onload="changeColor();">
+<div id="para1">
+<h2 align="center"><u>Mr Burns Trivia</u></h1>
+</div>
+1. It is implied in the episode Million Dollar Maybe, that Burns is?<br>
+(a)<input type="radio" name="q1" id=a1>German soldier<br>
+(b)<input type="radio" name="q1">American soldier<br>
+(c)<input type="radio" name="q1">Russian soldier<br>
+(d)<input type="radio" name="q1">Indian soldier<br>
+<br>
+2. In the episode 'The Seemingly Neverending Story, Burns claims he was born in?<br>
+(a)<input type="radio" name="q2">New York<br>
+(b)<input type="radio" name="q2">Delhi<br>
+(c)<input type="radio" name="q2" id=a2>Pangaea<br>
+(d)<input type="radio" name="q2">Afganistan<br>
+<br>
+3.Inside of the safe, Burns hides his Last Will and a?<br>
+(a)<input type="radio" name="q3">Human Brain<br>
+(b)<input type="radio" name="q3" id=a3>Human heart<br>
+(c)<input type="radio" name="q3">Human eyes<br>
+(d)<input type="radio" name="q3">Human hair<br>
+<br>
+4.In ‘The Burns and the Bees‘, Mr Burn sings?<br>
+(a)<input type="radio" name="q4">Indian Anthem<br>
+(b)<input type="radio" name="q4">German Anthem<br>
+(c)<input type="radio" name="q4">Russian Anthem<br>
+(d)<input type="radio" name="q4" id=a4>Austria-Hungary Anthem<br>
+<br>
+5. In more recent seasons, Burns is completely helpless without?<br>
+(a)<input type="radio" name="q5">Homes<br>
+(b)<input type="radio" name="q5">Bart<br>
+(c)<input type="radio" name="q5" id=a5>Smithers<br>
+(d)<input type="radio" name="q5">Krusty<br>
+<br>
+<input type="submit" onclick="total(),result_popup()", id="total", value="Show Result"<br><br>
+</body>
+</html>

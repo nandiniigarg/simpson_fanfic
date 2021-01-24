@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Choose a Blog</title>
+    <link href="blog.css" type="text/css" rel="stylesheet">
+  </head>
+  <script type="text/javascript">
+    function openBlog1(){
+      window.open("blog1.html");
+    }
+    function openBlog2(){
+      window.open("blog2.html");
+    }
+    function home(){
+      window.open("homepage.html");
+    }
+  </script>
+  <body>
+    <div class="intro">
+      Choose what you wish to read!
+    </div>
+    <img src="milhouseblog.png" class="milhouse">
+    <form>
+      <input type="button" class="blog1" value="Simpson's: The Fortune Teller" onclick="openBlog1()">
+      <input type="button" class="blog2" value="About The Simpson's" onclick="openBlog2()">
+      <input type="button" class="home" value="Back to Homepage" onclick="home()">
+    </form>
+  </body>
+</html>

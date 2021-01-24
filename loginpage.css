@@ -1,0 +1,161 @@
+img {
+  position: absolute;
+  width: 800px;
+  height: 850px;
+  left: 640px;
+  top: 87px;
+
+  background: url(loginpic.png);
+}
+body {
+	position:relative;
+	width: 1500px;
+	height:1000px;
+
+  background: rgba(255, 217, 15, 0.75);
+	box-shadow: 15px 30px 30px
+		rgba(0,0,0,0.25);
+	border-radius: 8px 8px 8px 8px;
+}
+.loginform {
+  position: rect1 absolute;
+  align-content: center;
+}
+rect1 {
+  position: absolute;
+  width: 564px;
+  height: 819px;
+  left: 76px;
+  top: 103px;
+}
+.logintext {
+  position: absolute;
+  width: 384px;
+  height: 213px;
+  left: 166px;
+  top: 211px;
+  align-items: center;
+
+  font-family: Comic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: black;
+}
+.usernametext {
+  position: absolute;
+  width: 403px;
+  height: 52px;
+  left: 157px;
+  top: 421px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 80px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+}
+.usernamebox {
+  position: absolute;
+  width: 404px;
+  height: 52px;
+  left: 156px;
+  top: 486px;
+
+  background: #FFFFFF;
+  border-radius: 20px;
+
+  font-size:30px;
+  text-align: center;
+}
+.passwordtext {
+  position: absolute;
+  width: 257px;
+  height: 42px;
+  left: 230px;
+  top: 551px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 80px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+}
+.passwordbox {
+  position: absolute;
+  width: 257px;
+  height: 42px;
+  left: 230px;
+  top: 551px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 80px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+}
+.passwordbox {
+  position: absolute;
+  width: 404px;
+  height: 52px;
+  left: 156px;
+  top: 615px;
+
+  background: #FFFFFF;
+  border-radius: 20px;
+
+  font-size:30px;
+}
+.loginbutton {
+  position: absolute;
+  width: 244px;
+  height: 46px;
+  left: 230px;
+  top: 729px;
+
+  align-content: center;
+  color: white;
+  font-size: 30px;
+
+  background: #6C93F9;
+  border-radius: 20px;
+
+}
+.resetbutton {
+  position: absolute;
+  width: 244px;
+  height: 46px;
+  left: 230px;
+  top: 804px;
+
+  background: #6C93F9;
+  border-radius: 20px;
+
+  align-content: center;
+  color: white;
+  font-size: 30px;
+}

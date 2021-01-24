@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Home</title>
+  <link type="text/css" href="homepage.css" rel="stylesheet">
+</head>
+<script type="text/javascript">
+function openBlog(){
+  window.open("blog.html");
+}
+function openPersonality(){
+  window.open("personality.html");
+}
+function openGames(){
+  window.open("games.html");
+}
+</script>
+<body>
+
+  <img src="cloud.png" class="cloud">
+  <img src="bart.png" class="bart">
+  <img src="simpsonlogo.png" class="logo">
+  <form>
+    <input type="button" onClick="openBlog()" value="Blogs" class="blogbutton"><br>
+    <input type="button" onClick="openPersonality()" value="Trivia" class="quizbutton"><br>
+    <input type="button" onClick="openGames()" value="Games" class="gamesbutton"><br>
+  </form>
+  <div class="back">
+    <a href="loginpage.html">Back to login...</a>
+  </div>
+</body>
+</html>

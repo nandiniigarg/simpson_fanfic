@@ -1,0 +1,87 @@
+body {
+  background-color: #FFFFFF;
+}
+.intro {
+  position: absolute;
+  width: 824px;
+  height: 263px;
+  left: 21px;
+  top: 82px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 110px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.milhouse {
+  position: absolute;
+  width: 585px;
+  height: 836px;
+  left: 809px;
+  top: 188px;
+}
+.blog1 {
+  position: absolute;
+  width: 576px;
+  height: 94px;
+  left: 144px;
+  top: 512px;
+
+  background: #6C93F9;
+  border-radius: 20px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+.blog2 {
+  position: absolute;
+  width: 576px;
+  height: 94px;
+  left: 145px;
+  top: 666px;
+
+  background: #6C93F9;
+  border-radius: 20px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+.home{
+  position: absolute;
+  width: 298px;
+  height: 54px;
+  left: 278px;
+  top: 820px;
+
+  background: #F91FBC;
+  border-radius: 20px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}

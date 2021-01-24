@@ -1,0 +1,100 @@
+.cloud{
+  position: absolute;
+  width: 1920px;
+  height: 860px;
+  left: -138px;
+  top: -223px;
+
+  background: url(cloud.png);
+}
+.logo {
+  position: absolute;
+  height: 694px;
+  width:680px;
+  left: 15%;
+  right: 34.17%;
+  bottom: 25%;
+
+}
+.bart {
+  position: absolute;
+  width: 396px;
+  height: 860px;
+  left: 962px;
+  top: 164px;
+
+}
+.blogbutton {
+  position: absolute;
+  width: 450px;
+  height: 97px;
+  left: 310px;
+  top: 487px;
+
+  background: #F91FBC;
+  border-radius: 20px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 63px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.quizbutton{
+  position: absolute;
+  width: 450px;
+  height: 97px;
+  left: 310px;
+  top: 622px;
+
+  background: #F91FBC;
+  border-radius: 20px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 63px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.gamesbutton{
+  position: absolute;
+  width: 450px;
+  height: 97px;
+  left: 310px;
+  top: 757px;
+
+  background: #F91FBC;
+  border-radius: 20px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 63px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.back {
+  position: absolute;
+  width: 437px;
+  height: 50px;
+  left: 317px;
+  top: 914px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}

@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>
+Login
+</title>
+<link rel="stylesheet" type="text/css" href="loginpage.css">
+<script language="javascript">
+function check()
+{
+var u=document.getElementById("userid").value;
+var p=document.getElementById("pswrd").value;
+
+if((u=="andrewkola")&&(p=="simpson"))
+{alert("Welcome, Andrew Kola");
+window.open('homepage.html','_self');
+}
+else if((u=="kaizannekoo")&&(p=="simpson"))
+{alert("Welcome, Kaizan Nekoo");
+window.open('homepage.html','_self');
+}
+else if((u=="netramahe")&&(p=="simpson"))
+{alert("Welcome, Netra Maheshwari");
+window.open('homepage.html','_self');
+}
+else if((u=="nandinigarg")&&(p=="simpson"))
+{alert("Welcome, Nandini Garg");
+window.open('homepage.html','_self');
+}
+else
+{alert("Error Password or Username");
+}
+}
+</script>
+</head>
+<body>
+<div class="maininterface">
+<div class="rect1">
+<div class="loginform">
+<div class="logintext">
+  Join The Fun!
+</div>
+<form>
+<div class="usernametext">
+Username
+</div>
+<input type="text" id="userid" name="userid" class="usernamebox">
+<div class="passwordtext">
+Password
+</div>
+<input type="password" id="pswrd" name="pswrd" class="passwordbox">
+<input type="button" onclick="check()" value="Login" class="loginbutton">
+<input type="reset" value="Reset" class="resetbutton">
+</form>
+</div>
+</div>
+<img src="loginpic.png">
+</div>
+</body>
+</html>

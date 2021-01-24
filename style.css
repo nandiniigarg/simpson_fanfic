@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#game{
+    background-color: #f2ff00;
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+}
+#character{
+	background-image: url("homer1.png");
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 80px;
+    position: relative;
+    top: 400px;
+    left: 190px;
+    z-index: 1000000;
+}
+.block{
+	background-image: url("grass1.jpg");
+	background-repeat: no-repeat;
+    width: 400px;
+    height: 20px;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+.hole{
+    width: 60px;
+    height: 20px;
+    background-color: #f2ff00;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}

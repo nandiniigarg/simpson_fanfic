@@ -1,0 +1,94 @@
+body {
+  background:#6C93F9;
+}
+.homer {
+  position: absolute;
+  width: 1018px;
+  height: 815px;
+  left: 31px;
+  top: 209px;
+
+}
+.chat {
+  position: absolute;
+  width: 561px;
+  height: 500px;
+  left: 500px;
+  bottom:45%;
+
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.intro{
+  position: absolute;
+  width: 564px;
+  height: 240px;
+  left: 477px;
+  top: 144px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 83px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+.snakesbutton{
+  position: absolute;
+  width: 454px;
+  height: 121px;
+  left: 926px;
+  top: 504px;
+
+  background: rgba(255, 217, 15, 0.99);
+  border-radius: 20px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 83px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.fallgamebutton{
+  position: absolute;
+  width: 454px;
+  height: 121px;
+  left: 926px;
+  top: 671px;
+
+  background: rgba(255, 217, 15, 0.99);
+  border-radius: 20px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 68px;
+  line-height: 83px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+a {
+  position: absolute;
+  width: 500px;
+  height: 102px;
+  left: 903px;
+  top: 850px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
